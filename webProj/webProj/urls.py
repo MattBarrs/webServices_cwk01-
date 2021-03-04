@@ -24,7 +24,6 @@ urlpatterns = [
     path('loginRequired', loginRequired),
     path('api/login/',user_login),
     path('api/logout/',user_logout),
-    #url(r’^logout/$’, views.user_logout, name=’logout’),
     path('api/poststory/',story_post),
     path('api/getstories/',story_get),
     path('api/deletestory/',story_delete),
